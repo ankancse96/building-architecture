@@ -1,0 +1,87 @@
+$myColor: black;
+$myFontColor: white;
+
+
+
+body{
+     overflow-x: hidden;
+     font-family: Verdana,sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    
+}
+
+.middle{
+    position: relative;
+  text-align: center;
+  color: $myFontColor;
+
+}
+
+.hr{
+    background-color: $myColor;
+    opacity: 0.5;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.a{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+.one{
+    position: absolute;
+  top: 5px;
+  left: 20px;
+  
+  color: aliceblue;
+  padding: 2px;
+}
+.one p{
+    background-color: $myColor;
+    
+    
+}
+
+.footer{
+    background-color: $myColor;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+    color: $myFontColor;
+}
+
+a{
+    color: $myFontColor;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+nav a:hover{
+  background: lightgray;
+}
+
+.row img{
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+
+.row img:hover{
+    opacity: 0.7;
+}
+
+.new3{
+  border: 2px solid rgb(0, 0, 0);
+  width: 200px;
+  
+}
